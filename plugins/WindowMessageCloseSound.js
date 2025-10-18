@@ -2,6 +2,7 @@
  * @target MZ
  * @plugindesc メッセージウィンドウが閉じる時に音を鳴らす
  * @author 氷柊樹
+ * @url https://github.com/hiiraginrei/RPGMakerMZ/tree/main/plugins
  *
  * @param soundName
  * @type file
@@ -131,4 +132,5 @@
 
 		return value.split("#")[0].trim();
 	}
+
 })();
