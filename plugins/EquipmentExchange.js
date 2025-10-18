@@ -2,6 +2,7 @@
  * @target MZ
  * @plugindesc パーティ間で仲間の装備を交換する
  * @author 氷柊樹
+ * @url https://github.com/hiiraginrei/RPGMakerMZ/tree/main/plugins
  *
  * @param exchangeWindowFlg
  * @type boolean
@@ -342,5 +343,6 @@
         _Scene_Equip_prototype_arePageButtonsEnabled.call(this);
         return !((this._itemWindow && this._itemWindow.active) || (this._exchangeCmdWindow && this._exchangeCmdWindow.visible));
     };
+
 
 })();
